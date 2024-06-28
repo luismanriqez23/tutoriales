@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Venta por tienda"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "72de0f5c-7db7-4d23-8b86-84419500b42b"
+  }
+}
