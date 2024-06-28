@@ -1,0 +1,42 @@
+{
+  "config": "{\"version\":\"5.55\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU06\",\"version\":\"5.55\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU06",
+            "path": "BaseThemes/CY24SU06.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Página 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "0ad8c83cdb137e86f9c1",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"481e27c1a2877e285264\",\"layouts\":[{\"id\":0,\"position\":{\"x\":219.8176291793313,\"y\":116.71732522796353,\"z\":0,\"width\":921.0942249240122,\"height\":540.790273556231,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Venta.Fecha.Variación.Jerarquía de fechas.Año\",\"active\":true},{\"queryRef\":\"Venta.Fecha.Variación.Jerarquía de fechas.Mes\",\"active\":true}],\"Series\":[{\"queryRef\":\"Venta.Tienda\"}],\"Y\":[{\"queryRef\":\"Sum(Venta.Venta_Unidades)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"v\",\"Entity\":\"Venta\",\"Type\":0}],\"Select\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"v\"}},\"Name\":\"Variación\",\"Property\":\"Fecha\"}},\"Hierarchy\":\"Jerarquía de fechas\"}},\"Level\":\"Año\"},\"Name\":\"Venta.Fecha.Variación.Jerarquía de fechas.Año\",\"NativeReferenceName\":\"Fecha Año\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"v\"}},\"Name\":\"Variación\",\"Property\":\"Fecha\"}},\"Hierarchy\":\"Jerarquía de fechas\"}},\"Level\":\"Mes\"},\"Name\":\"Venta.Fecha.Variación.Jerarquía de fechas.Mes\",\"NativeReferenceName\":\"Fecha Mes\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"v\"}},\"Property\":\"Tienda\"},\"Name\":\"Venta.Tienda\",\"NativeReferenceName\":\"Tienda\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"v\"}},\"Property\":\"Venta_Unidades\"}},\"Function\":0},\"Name\":\"Sum(Venta.Venta_Unidades)\",\"NativeReferenceName\":\"Suma de Venta_Unidades\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 540.79,
+          "width": 921.09,
+          "x": 219.82,
+          "y": 116.72,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
